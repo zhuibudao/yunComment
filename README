@@ -1,0 +1,12 @@
+ 1.在wacai项⽬中我们学习了@RestController，本节课使⽤的是@Controller，他们的区别是？
+ Restcontroller=Controller+ResponseBody
+ 一般类上用Controller，具体方法用Restcontroller
+ 
+ 2.localhost:8080/song?id=3，请把这个url解析，分析每⼀段的含义 
+ localhost是默认域名 8080是输出端口
+ song?id=3 是hash信息 path为song 所选择的songID=3
+
+ 3.https://music.163.com/#/playlist?id=2521932620 请把这个url解析，并分析每⼀段的含义
+ https 协议类型
+ music.163.com 域名
+ playlist?id=2521932620 是hash信息 playlist是歌单 id=2521932620是歌单的编号
